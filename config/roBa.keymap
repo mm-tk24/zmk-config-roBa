@@ -92,10 +92,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R        &kp T                                        &kp Y        &kp U  &lt 5 I    &kp O    &lt 5 P
-&kp A             &kp S         &kp D         &kp F        &kp G        &kp ESC          &kp EQUAL      &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B        &kp TAB          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 LANG1  &lt 2 SPACE  &lt 3 LANG2      &kp BACKSPACE  &lt 6 ENTER                             &kp DEL
+&kp Q             &kp W             &kp E         &kp R           &kp T                                            &kp Y           &kp U  &lt 5 I    &kp O    &lt 5 P
+&kp A             &kp S             &kp D         &kp F           &kp G        &kp ESC              &kp EQUAL      &kp H           &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X             &kp C         &kp V           &kp B        &kp TAB              &kp SEMICOLON  &kp N           &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp TAB           &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LCMD LANG2  &lt 1 SPACE  &lt 2 BACKSPACE      &lt 3 ENTER    &mt RCMD LANG1                             &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -103,10 +103,10 @@
 
         FUNCTION {
             bindings = <
-&kp AT_SIGN  &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &trans       &trans
-&kp TILDE    &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp CARET  &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SEMICOLON  &kp GRAVE    &kp NON_US_BACKSLASH
-&kp GRAVE    &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &trans     &trans      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COLON      &kp AT_SIGN  &kp PIPE
-&trans       &trans           &trans                &trans                 &trans     &trans      &trans  &trans                                                                   &trans
+&kp AT_SIGN  &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &trans
+&kp TILDE    &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp CARET  &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SEMICOLON         &kp GRAVE             &kp NON_US_BACKSLASH
+&kp GRAVE    &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &trans     &trans      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COLON             &kp AT_SIGN           &kp PIPE
+&trans       &trans           &trans                &trans                 &trans     &trans      &trans  &trans                                                                                   &trans
             >;
         };
 
